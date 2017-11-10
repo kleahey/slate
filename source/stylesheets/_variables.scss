@@ -23,22 +23,22 @@ under the License.
 
 // BACKGROUND COLORS
 ////////////////////
-$nav-bg: #2E3336 !default;
-$examples-bg: #2E3336 !default;
-$code-bg: #1E2224 !default;
-$code-annotation-bg: #191D1F !default;
-$nav-subitem-bg: #1E2224 !default;
-$nav-active-bg: #0F75D4 !default;
+$nav-bg: rgba(140, 27, 52, 1) !default;
+$examples-bg: #F5EAEC !default;
+$code-bg: #2A080F !default;
+$code-annotation-bg: rgba(170, 85, 85, 1) !default;
+$nav-subitem-bg: #2A080F !default;
+$nav-active-bg: rgba(255, 255, 255, 0.4) !default;
 $nav-active-parent-bg: #1E2224 !default; // parent links of the current section
 $lang-select-border: #000 !default;
-$lang-select-bg: #1E2224 !default;
+$lang-select-bg: #2A080F !default;
 $lang-select-active-bg: $examples-bg !default; // feel free to change this to blue or something
 $lang-select-pressed-bg: #111 !default; // color of language tab bg when mouse is pressed
-$main-bg: #F3F7F9 !default;
-$aside-notice-bg: #8fbcd4 !default;
+$main-bg: #F5F4F0 !default;
+$aside-notice-bg: rgba(103, 140, 147, 0.6) !default;
 $aside-warning-bg: #c97a7e !default;
 $aside-success-bg: #6ac174 !default;
-$search-notice-bg: #c97a7e !default;
+$search-notice-bg: #2A080F !default;
 
 
 // TEXT COLORS
@@ -48,7 +48,7 @@ $nav-text: #fff !default;
 $nav-active-text: #fff !default;
 $nav-active-parent-text: #fff !default; // parent links of the current section
 $lang-select-text: #fff !default; // color of unselected language tab text
-$lang-select-active-text: #fff !default; // color of selected language tab text
+$lang-select-active-text: #2A080F !default; // color of selected language tab text
 $lang-select-pressed-text: #fff !default; // color of language tab text when mouse is pressed
 
 
@@ -88,8 +88,8 @@ $phone-width: $tablet-width - $nav-width !default; // min width before reverting
 
 // OTHER
 ////////////////////
-$nav-footer-border-color: #666 !default;
-$search-box-border-color: #666 !default;
+$nav-footer-border-color: #edebe6 !default;
+$search-box-border-color: #edebe6 !default;
 
 
 ////////////////////////////////////////////////////////////////////////////////
